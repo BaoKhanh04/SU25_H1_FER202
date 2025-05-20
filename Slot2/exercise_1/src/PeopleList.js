@@ -1,4 +1,3 @@
-// src/PeopleList.js
 function PeopleList() {
   const people = [
     { name: "Alice", age: 25, occupation: "Engineer" },

@@ -1,4 +1,3 @@
-// src/PeopleTable.js
 function PeopleTable() {
   const people = [
     { name: "Alice", age: 25, occupation: "Engineer" },
