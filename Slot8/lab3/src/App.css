@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Gióng cột tuyệt đối cho mọi phần */
+.main-container {
+  max-width: 1100px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.section-title, .booking-section-title {
+  text-align: left;
+  font-family: 'Georgia', serif;
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.menu-card {
+  min-width: 0;
+  width: 100%;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu-card .card-img-top, .menu-card img {
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+.menu-card .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.menu-card .card-footer {
+  background: transparent !important;
+  border-top: none !important;
+  padding-top: 0.5rem !important;
+}
+.menu-card .btn-dark {
+  width: 100%;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+.menu-card .badge {
+  font-size: 1rem;
+  padding: 0.4em 1em;
+  border-radius: 8px;
+  font-weight: 700;
+  box-shadow: 0 2px 8px #0002;
+}
+
