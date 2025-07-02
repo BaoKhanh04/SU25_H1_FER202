@@ -7,7 +7,6 @@
   pointer-events: none;
 }
 
-/* Gióng cột tuyệt đối cho mọi phần */
 .main-container {
   max-width: 1100px;
   margin-left: auto !important;

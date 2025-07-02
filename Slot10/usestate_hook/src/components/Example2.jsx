@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 function App() {
   const [name, setName] = useState('Adam');
-  const [age, setAge] = useState(35);
+  const [age, setAge] = useState(16);
 
   return (
     <div>

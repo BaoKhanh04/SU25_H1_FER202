@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./assets/logofpt.jpg"; // ✅ Cập nhật đường dẫn ảnh vì file nằm trong src
+import logo from "./assets/logofpt.jpg"; 
 
 export default function Exercise4() {
   return (
