@@ -42,10 +42,9 @@ function ProductDetail() {
   const discountPercentage = price > 0 ? Math.round(((price - currentPrice) / price) * 100) : 0;
 
   return (
-    <div className="bg-dark text-white d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
+    <div className="bg-dark text-white align-items-center justify-content-center d-flex" style={{ minHeight: '100vh' }}>
       <Card className="text-center p-4 bg-dark border-0" style={{ maxWidth: '600px' }}>
         <h2 className="mb-4">{product.name}</h2>
-
         <div className="mb-4">
           <Card.Img 
             variant="top"
@@ -63,7 +62,7 @@ function ProductDetail() {
           <p><strong>Discount:</strong> {discountPercentage} %</p>
         </div>
 
-        <div className="d-flex justify-content-center gap-3 mt-3">
+        <div className="d-flex justify-content-center gap-3 mt-1">
           <Button variant="primary" onClick={() => navigate('/')}>Back Home</Button>
           <Button variant="danger" onClick={() => navigate(`/edit-product/${product.id}`)}>Edit</Button>
         </div>

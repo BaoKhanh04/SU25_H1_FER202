@@ -1,12 +1,12 @@
 {
   "products": [
     {
+      "id": "1",
       "name": "Laptop LG Gram 2023 14ZD90R-G.AX52A5",
       "description": "Intel core i5-1340P, Ram 8GB, SSD 256GB, Màn Hình 14 inch WUXGA, Siêu mỏng, siêu nhẹ",
       "price": "25.990.000",
       "currentPrice": "21.990.000",
-      "image": "https://product.hstatic.net/1000333506/product/1._anh_dai_dien_846c8f622696421fbbfd3f1328e9eb28.jpg",
-      "id": "1"
+      "image": "/laptop1.png"
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "description": "Intel Core i5-1235U, Ram 8GB, SSD 512GB, màn hình 15.6 inch FHD, Win 11 bản quyền, màu bạc, chính hãng, bảo hành 12 tháng",
       "price": "17.990.000",
       "currentPrice": "11.990.000",
-      "image": "https://cdn2.fptshop.com.vn/unsafe/564x0/filters:quality(80)/Uploads/images/2015/VuTT29/Acer%20Aspire%203%20A315-59-51X8%201.png"
+      "image": "/laptop2.jpg"
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "description": "Intel i5-1340P, Ram 8GB DDR5, SSD 512GB, Màn Hình 16 Inch FHD+, VGA Intel Iris Xe, Windows 11 Home, Office HS 2021 bản quyền, vỏ nhôm",
       "price": "23.190.000",
       "currentPrice": "19.990.000",
-      "image": "https://www.thienthientan.vn/wp-content/uploads/2023/02/1-16.jpg"
+      "image": "/laptop3.png"
     },
     {
       "id": "4",
@@ -30,7 +30,7 @@
       "description": "i7-13620H, Ram 8GB, SSD 512GB, màn hình 15.6inch FHD 144Hz, VGA 4050 6GB, Win 11 bản quyền, bảo hành 24 tháng.",
       "price": "24.990.000",
       "currentPrice": "22.990.000",
-      "image": "https://product.hstatic.net/200000837185/product/2023_3_9_638139851534926926_msi-gaming-katana-15-b13v-den-1_a21eb8d92d3b4913ad9c4524a42cca45.png"
+      "image": "/laptop4.png"  
     },
     {
       "id": "5",
@@ -38,7 +38,7 @@
       "description": "i7-12700H, Ram 8GB, SSD 512GB, RTX 3050 4GB, Màn hình 15.6 FHD 144Hz IPS, Win 11, Hàng chính hãng, Bảo hành 24 tháng.",
       "price": "26.990.000",
       "currentPrice": "23.490.000",
-      "image": "https://laptopworld.vn/media/product/14586_"
+      "image": "/laptop5.jpg"
     },
     {
       "id": "6",
@@ -46,7 +46,7 @@
       "description": "Core i5 13500H, Ram 16GB, 512GB SSD, màn hình 15.6inch FHD OLED, Windows 11 Home bản quyền, màu đen.",
       "price": "20.990.000",
       "currentPrice": "17.190.000",
-      "image": "https://cdn.nguyenkimmall.com/images/detailed/1020/10055274-laptop-asus-vivobook-15-oled-i5-13500h-a1505va-l1114w-1_m8d6-m7.jpg"
+      "image": "/laptop6.png"
     },
     {
       "id": "7",
@@ -54,7 +54,7 @@
       "description": "Intel i7-13700HX, RAM 8GB, SSD 512GB, RTX 4050 6GB, Màn Hình 16inch QHD 165Hz 100% sRGB, Windows 11",
       "price": "38.990.000",
       "currentPrice": "38.490.000",
-      "image": "https://www.tncstore.vn/media/product/250-8552-helios-16-1.jpg"
+      "image": "/laptop7.jpg"
     },
     {
       "id": "8",
@@ -62,7 +62,7 @@
       "description": "AMD R5 7530U, Ram 8GB, SSD 512GB, Màn Hình 14.0inch FHD IPS, Windows 11, Đen",
       "price": "12.990.000",
       "currentPrice": "10.990.000",
-      "image": "https://product.hstatic.net/200000320233/product/5ae50e21491681601_1024x1024_57498f8541f54f7d9ee31470b7be9c39_1024x1024_581e8f7c52044d47996fc234b1d06184.jpg"
+      "image": "/laptop8.jpg"
     },
     {
       "id": "9",
@@ -70,7 +70,7 @@
       "description": "i7-12700H, Ram 8GB, SSD 512GB, RTX 3050Ti 4GB, 15.6 inch FHD, Windows 11",
       "price": "31.990.000",
       "currentPrice": "25.490.000",
-      "image": "https://bizweb.dktcdn.net/thumb/large/100/372/934/products/acer-nitro-5-tiger-man-hinh-09b71ec1-a798-4faf-a23e-119e2c907533.jpg?v=1724893922290"
+      "image": "/laptop9.png"
     },
     {
       "id": "10",
@@ -78,7 +78,7 @@
       "description": "Core i5-1240P, Ram 16GB, SSD 512GB, màn hình 14 inch QHD IPS, Win 11bản quyền, màu bạc",
       "price": "21.990.000",
       "currentPrice": "17.490.000",
-      "image": "https://bizweb.dktcdn.net/100/410/941/products/annotation-2023-08-03-092943.jpg?v=1691029883600"
+      "image": "/laptop10.png"
     }
   ]
 }
