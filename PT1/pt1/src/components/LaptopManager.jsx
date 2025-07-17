@@ -67,7 +67,7 @@ const LaptopManager = () => {
         <>
           <Form className="mb-4" onSubmit={handleSearch}>
             <Row className="align-items-center">
-              <Col md={6}>
+              <Col md={12}>
                 <Form.Control
                   type="search"
                   placeholder="Search by brand, model, or year"
@@ -77,11 +77,6 @@ const LaptopManager = () => {
                   aria-label="Search laptops"
                 />
               </Col>
-              <Col md={2}>
-                <Button variant="primary" type="submit" className="w-100">
-                  Search
-                </Button>
-              </Col>
             </Row>
           </Form>
 
@@ -90,7 +85,7 @@ const LaptopManager = () => {
           ) : (
             <Row>
               {filteredLaptops.map((laptop) => (
-                <Col md={4} key={laptop.id} className="mb-4">
+                <Col md={3} key={laptop.id} className="mb-4">
                   <Card className="h-100 shadow-sm">
                     <Card.Img
                       variant="top"

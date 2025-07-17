@@ -65,7 +65,7 @@ const LaptopDetail = () => {
   return (
     <Row className="justify-content-center mt-4">
       <Col md={6}>
-        <Card>
+        <Card className="mb-3">
           <Card.Img variant="top" src={laptop.image} alt={laptop.model} />
           <Card.Body>
             <Card.Title>{laptop.brand} {laptop.model}</Card.Title>
@@ -75,7 +75,7 @@ const LaptopDetail = () => {
               <strong>Description:</strong> High-performance laptop suitable for professional and personal use.
             </Card.Text>
             <Button as={Link} to="/laptops" variant="primary">
-              Back to Laptops
+              Back to Laptop List
             </Button>
           </Card.Body>
         </Card>
